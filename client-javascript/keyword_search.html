@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>O*NET Web Services Keyword Search Demo</title>
-
+<script src="https://services.onetcenter.org/embed/ip.js?client=futurefirst_org_za"></script>
+<div class="embed-onet-ip"></div>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <script src="OnetWebService.js"></script>
@@ -15,15 +16,6 @@
   <div class="container-fluid p-4">
   
     <h1 class="mb-4">Keyword Search Demo</h1>
-    
-    <form id="accountForm">
-      <div class="form-group" style="max-width: 500px">
-        <label for="accountName">O*NET Web Services username</label>
-        <input type="text" class="form-control" id="accountName" aria-describedby="accountNameHelp" placeholder="my_account_name">
-        <small id="accountNameHelp">You must register the domain “<span id="domainOrigin">(not loaded)</span>” in <a target="_blank" href="https://services.onetcenter.org/developer/editorigin">My Account</a></small>
-      </div>
-      <button type="submit" id="accountConnect" class="btn btn-primary">Connect</button>
-    </form>
     
     <div id="connectSuccess">
       <div id="connectPanel" class="alert alert-primary my-3">
